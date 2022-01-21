@@ -1,1 +1,74 @@
-//
+// Generali
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main{
+    background-color: #1c1c1c;
+    padding-bottom: 2rem;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+// classi btn generali
+.button{
+    border: #0282f9 1px solid;
+    padding: 1rem;
+
+    &.btn-blue{
+        background-color: #0282f9;
+    }
+}
+
+//HEADER CSS
+header{
+    background-color: #ffffff;
+    height: 100px;
+
+    .container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-height: 100%;
+    
+        #logo>img{
+            max-height: 100px;
+            padding: 10px 0;
+        }
+        nav{
+            li{
+                display: inline-block;
+                line-height: 81px;
+                padding: 8px;
+
+                a{
+                    color: #000!important;
+                    font-size: .9rem;
+                }
+                
+                &.active, &:hover{
+                    border-bottom: #0c7cec 3px solid;
+                    a{
+                        color: #0c7cec!important;
+                    }
+                }
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px){
+    nav{
+        display: none;
+    }
+}
