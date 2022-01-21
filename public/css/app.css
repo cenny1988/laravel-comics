@@ -77,6 +77,128 @@ header .container nav li:hover a {
   width: 100%;
 }
 
+footer {
+  color: #fff;
+}
+
+footer #cards {
+  background-color: #0282f9;
+}
+
+footer #cards .container {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer #cards .container .container-icons {
+  width: 20%;
+  padding: 0 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  min-width: 180px;
+}
+
+footer #cards .container .container-icons img {
+  padding: 0.5rem;
+  height: 6rem;
+}
+
+footer #cards .container .container-icons h3 {
+  font-size: 0.7rem;
+}
+
+footer #footer-nav {
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+}
+
+footer #footer-nav #bg-overlay {
+  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+footer #footer-nav #links {
+  width: 40%;
+  padding: 1rem 0;
+  display: flex;
+  padding: 2rem 0;
+}
+
+footer #footer-nav #links .column {
+  margin-right: 1.5rem;
+}
+
+footer #footer-nav #links h3 {
+  padding: 1rem 0;
+}
+
+footer #footer-nav #links ul {
+  padding: 0;
+}
+
+footer #footer-nav #links li {
+  list-style: none;
+  padding: 0.2rem 0;
+}
+
+footer #footer-nav #links li a {
+  color: #959595;
+  font-size: 0.8rem;
+}
+
+footer #footer-social {
+  background-color: #303030;
+}
+
+footer #footer-social .container {
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer #footer-social .container span {
+  color: #0282f9;
+  display: inline-block;
+  margin: 0 5px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+}
+
+#serieslist {
+  padding-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+
+#loadmore {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+#loadmore a {
+  padding: 1rem 4rem;
+}
+
+.thumb {
+  width: 16.6666666667%;
+  padding: 5px;
+}
+
+.thumb img {
+  max-width: 100%;
+}
+
+.thumb h4 {
+  padding: 0.8rem 0;
+}
+
 @media screen and (max-width: 1050px) {
   nav {
     display: none;
