@@ -67,7 +67,18 @@ header{
     }
 }
 
-@media screen and (max-width: 1000px){
+// sezione jumbotron
+#jumbotron{
+    height: 500px;
+    img{
+        object-fit: cover;
+        max-height: 500px;
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1050px){
     nav{
         display: none;
     }

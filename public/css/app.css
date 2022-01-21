@@ -66,7 +66,18 @@ header .container nav li:hover a {
   color: #0c7cec !important;
 }
 
-@media screen and (max-width: 1000px) {
+#jumbotron {
+  height: 500px;
+}
+
+#jumbotron img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-height: 500px;
+  width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
   nav {
     display: none;
   }

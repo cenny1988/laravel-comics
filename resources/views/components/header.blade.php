@@ -21,4 +21,9 @@
               </a> -->
         </nav>
     </div>
+
+    <section id="jumbotron">
+        <img src="../assets/img/jumbotron.jpg" alt="jumbo">
+      
+    </section>
 </header>
