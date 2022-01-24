@@ -112,11 +112,11 @@ footer #cards .container .container-icons h3 {
 }
 
 footer #footer-nav {
-  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  background-image: url("/storage/assets/img/footer-bg.jpg");
 }
 
 footer #footer-nav #bg-overlay {
-  background-image: url(/images/dc-logo-bg.png?f4404ce9dc132a08a47f19e3f73f1417);
+  background-image: url("/storage/assets/img/dc-logo-bg.png");
   background-repeat: no-repeat;
   background-position: right;
 }

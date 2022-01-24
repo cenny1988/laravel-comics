@@ -4,23 +4,23 @@
         <div class="container">
 
             <div class="container-icons">
-                <img src="../assets/img/buy-comics-digital-comics.png" alt="digital-comics">
+                <img src="{{asset('/storage/assets/img/buy-comics-digital-comics.png')}}" alt="digital-comics">
                 <h3>DIGITAL COMICS</h3>
             </div>
             <div class="container-icons">
-                <img src="../assets/img/buy-comics-merchandise.png" alt="dc-merchandise">
+                <img src="{{asset('/storage/assets/img/buy-comics-merchandise.png')}}" alt="dc-merchandise">
                 <h3>DC MERCHANDISE</h3>
             </div>
             <div class="container-icons">
-                <img src="../assets/img/buy-comics-subscriptions.png" alt="subscription">
+                <img src="{{asset('/storage/assets/img/buy-comics-subscriptions.png')}}" alt="subscription">
                 <h3>SUBSCRIPTION</h3>
             </div>
             <div class="container-icons">
-                <img src="../assets/img/buy-comics-shop-locator.png" alt="comic-shop-locator">
+                <img src="{{asset('/storage/assets/img/buy-comics-shop-locator.png')}}" alt="comic-shop-locator">
                 <h3>COMIC SHOP LOCATOR</h3>
             </div>
             <div class="container-icons">
-                <img src="../assets/img/buy-dc-power-visa.svg" alt="dc-power-visa">
+                <img src="{{asset('/storage/assets/img/buy-dc-power-visa.svg')}}" alt="dc-power-visa">
                 <h3>DC POWER VISA</h3>
             </div>
 
@@ -89,11 +89,11 @@
             </div>
             <div>
                 <span>FOLLOW US</span>
-                <span><a href="#"><img src="../assets/img/footer-facebook.png" alt=""></a></span>
-                <span><a href="#"><img src="../assets/img/footer-twitter.png" alt=""></a></span>
-                <span><a href="#"><img src="../assets/img/footer-youtube.png" alt=""></a></span>
-                <span><a href="#"><img src="../assets/img/footer-pinterest.png" alt=""></a></span>
-                <span><a href="#"><img src="../assets/img/footer-periscope.png" alt=""></a></span>
+                <span><a href="#"><img src="{{asset('/storage/assets/img/footer-facebook.png')}}" alt=""></a></span>
+                <span><a href="#"><img src="{{asset('/storage/assets/img/footer-twitter.png')}}" alt=""></a></span>
+                <span><a href="#"><img src="{{asset('/storage/assets/img/footer-youtube.png')}}" alt=""></a></span>
+                <span><a href="#"><img src="{{asset('/storage/assets/img/footer-pinterest.png')}}" alt=""></a></span>
+                <span><a href="#"><img src="{{asset('/storage/assets/img/footer-periscope.png')}}" alt=""></a></span>
             </div>
         </div>
     </section>

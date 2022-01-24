@@ -1,7 +1,7 @@
 <header>
     <div class="container">
         <div id="logo">
-            <img src="../assets/img/dc-logo.png" alt="logo-dc">
+            <img src="/storage/assets/img/dc-logo.png" alt="logo-dc">
         </div>
         <nav>
             <ul>
@@ -16,14 +16,14 @@
                 <li><a  href="#">NEWS</a></li>
                 <li><a  href="#">SHOP</a></li>
             </ul>
-            <!-- <a href="#" class="close">
+            {{-- <a href="#" class="close">
                   <i class="fas fa-times"></i>
-              </a> -->
+              </a>  --}}
         </nav>
     </div>
 </header>
 
 <section id="jumbotron">
-    <img src="../assets/img/jumbotron.jpg" alt="jumbo">
+    <img src="{{asset('/storage/assets/img/jumbotron.jpg')}}" alt="jumbo">
   
 </section>
