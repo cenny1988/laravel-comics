@@ -199,6 +199,75 @@ footer #footer-social .container span {
   padding: 0.8rem 0;
 }
 
+.banner {
+  height: 80px;
+  background-color: #0282f9;
+  position: relative;
+}
+
+.banner .abs {
+  position: absolute;
+  bottom: 15px;
+}
+
+.details {
+  margin: 3rem 0;
+}
+
+.details .container .row {
+  display: flex;
+}
+
+.details .container .row .descript {
+  width: 70%;
+  padding: 2rem 0.8rem 2rem 0;
+}
+
+.details .container .row .descript p {
+  color: #555d81;
+}
+
+.details .container .row .descript h2 {
+  color: #003f5e;
+}
+
+.details .container .row .descript .green {
+  margin: 1rem 0;
+  padding: 10px 20px;
+  background-color: #55ba59;
+  display: flex;
+  color: #fff;
+  border-bottom: #000 1px solid;
+}
+
+.details .container .row .descript .green .row {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.details .container .row .descript .green .inline {
+  display: inline-block;
+}
+
+.details .container .row .descript .green span {
+  color: #a7e559;
+}
+
+.details .container .row .image-details {
+  width: 30%;
+}
+
+.details .container .row .image-details h5 {
+  text-align: right;
+  color: #003f5e;
+}
+
+.details .container .row .image-details img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 @media screen and (max-width: 1050px) {
   nav {
     display: none;
