@@ -268,6 +268,48 @@ footer #footer-social .container span {
      object-fit: cover;
 }
 
+.spec {
+  background-color: #f6f6f6;
+  color: #003f5e;
+  font-size: 14px;
+}
+
+.spec .container .row > div {
+  width: 50%;
+}
+
+.spec .container .row {
+  margin-bottom: 5rem;
+  display: flex;
+}
+
+.spec .container .row .border {
+  border-bottom: #e3e3e3 1px solid;
+}
+
+.spec .container .row h3 {
+  color: #003f5e;
+  padding: 1rem 0;
+}
+
+.spec .container .row div:first-child {
+  padding-right: 1rem;
+}
+
+.spec .container .row .flex {
+  display: flex;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.spec .container .row .flex div:first-child {
+  width: 30%;
+}
+
+.spec .container .row .flex div:last-child {
+  width: 70%;
+}
+
 @media screen and (max-width: 1050px) {
   nav {
     display: none;
