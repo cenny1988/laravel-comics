@@ -19,20 +19,17 @@
                         ACTION COMICS #1000: THE DELUXE EDITION
                     </h2>
 
-                    <div class="green">
+                    <div class="green row">
                         <div class="row">
-                            <div class="row">
-                                <div>
-                                    <span>U.S. Price:</span>$19.99
-                                </div>
-                                <div>
-                                    <span>AVAILABLE</span>
-                                </div>
+                            <div>
+                                <span>U.S. Price:</span>$19.99
                             </div>
                             <div>
-                                <span>Check Availability</span>
+                                <span>AVAILABLE</span>
                             </div>
-
+                        </div>
+                        <div>
+                            <span>Check Availability</span>
                         </div>
                     </div>
 

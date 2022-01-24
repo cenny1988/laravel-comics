@@ -67,4 +67,6 @@
             </div>
         </div>
     </main>
+
+    @include('components.cards')
 @endsection('content')

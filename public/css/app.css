@@ -77,15 +77,11 @@ header .container nav li:hover a {
   width: 100%;
 }
 
-footer {
-  color: #fff;
-}
-
-footer #cards {
+#cards {
   background-color: #0282f9;
 }
 
-footer #cards .container {
+#cards .container {
   padding: 1rem 0;
   display: flex;
   justify-content: space-around;
@@ -93,7 +89,7 @@ footer #cards .container {
   flex-wrap: wrap;
 }
 
-footer #cards .container .container-icons {
+#cards .container .container-icons {
   width: 20%;
   padding: 0 20px;
   color: #fff;
@@ -102,13 +98,17 @@ footer #cards .container .container-icons {
   min-width: 180px;
 }
 
-footer #cards .container .container-icons img {
+#cards .container .container-icons img {
   padding: 0.5rem;
   height: 6rem;
 }
 
-footer #cards .container .container-icons h3 {
+#cards .container .container-icons h3 {
   font-size: 0.7rem;
+}
+
+footer {
+  color: #fff;
 }
 
 footer #footer-nav {
@@ -240,9 +240,17 @@ footer #footer-social .container span {
   border-bottom: #000 1px solid;
 }
 
-.details .container .row .descript .green .row {
+.details .container .row .descript .green.row {
   justify-content: space-between;
   width: 100%;
+}
+
+.details .container .row .descript .green.row div:first-child {
+  width: 70%;
+}
+
+.details .container .row .descript .green.row div:last-child {
+  width: 30%;
 }
 
 .details .container .row .descript .green .inline {
